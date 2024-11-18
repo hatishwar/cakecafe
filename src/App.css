@@ -1,0 +1,103 @@
+#prenav{
+  background-color: maroon;
+  color:  white;
+}
+
+#prenav a{
+  color: white;
+}
+
+
+/* postnav style */
+
+#postnavrow{
+  background-color: maroon;
+  padding: 20px;
+}
+
+
+#postnav{
+  background-color: white;
+}
+
+#postnav a{
+  color: maroon;
+}
+
+/* newsletter */
+#newsletter{
+  background-color: lightgray;
+  padding: 20px;
+  min-height: 400px;
+}
+
+#newsletter h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 45px;
+  padding-top: 50px;
+}
+
+#newsletter input[type=email]{
+  min-width: 70%;
+  min-height: 50px;
+  border: 3px solid rgb(196, 193, 193);
+  padding: 5px;
+}
+
+#newsletter input[type=submit]{
+  background-color: black;
+  color: white;
+  min-height: 50px;
+  border-radius: 30px;
+  transform: translateX(-50px);
+  padding: 0px 50px;
+}
+
+/* loadmore button */
+
+#loadmore{
+  border: 1px solid lightgray;
+  color: lightgray;
+  background-color: white;
+  padding: 10px 100px;
+  margin-top: 50px;
+}
+
+#lowbar{
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  padding: 5px;
+  transform: translateY(-50px);
+}
+
+#delivery h1{
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+}
+
+.mycards span{
+  padding: 0 10px;
+}
+
+#myfooter{
+  background-color: maroon;
+  color: white;
+}
+
+#footer3 img{
+  max-width: 35px;
+  margin: 10px;
+}
+
+/* bestselling */
+
+#bestselling .card{
+  min-height: 350px;
+}
+
+.cardhead{
+  font-size: 14px;
+  font-weight: 900;
+}
