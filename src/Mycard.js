@@ -1,62 +1,63 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import card1 from './assets/card1.jpg';
-import card2 from './assets/card2.jpg';
-import card3 from './assets/card3.jpg';
-import card4 from './assets/card4.jpg';
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+
+import d1 from './assets/d1.png';
+import d2 from './assets/d2.png';
+import d4 from './assets/d4.png';
+
+function Delivery(){
+    return(
+        <div className='container-fluid text-center text-uppercase my-5' id='delivery'>
+            <div className="row">
+                <div>
+                <h1>DELIVERY AND PICKUP OPTIONS</h1>
+                <div id='lowbar'>
+                _
+                </div>
+                <p>
+DELIVERY AND PICKUP OPTIONS
+We make it easy for you to get Cake Cafe Items, wherever you are. Order now for Delivery & Pickup, place an order to pickup at your local shop, or get in touch with our team to arrange custom catering for your next event.</p>
+                
+                </div>
 
 
-function Mycard() {
-  return (
-    <div className='container-fluid text-center text-uppercase my-5'>
-      <div className='row'>
-      <div className='my-5'>
-      <h1>OUR PRODUCTS</h1>
-      <p>Cake Cafe & Fine Pastries prides itself on using the finest ingredients in all of our items.</p>
-      </div>
-      <div className='col-3'>
-       <Card >
-      <Card.Img variant="top" src={card1} />
-      <Card.Body>
-        <Card.Title>Cakes</Card.Title>
-        
-      </Card.Body>
-    </Card>
-    </div>
+                <div className="col-12 col-md-2 offset-md-3 mycards">
+                <Card >
+                <Card.Img variant="top" src={d1} />
+                <Card.Body>
+                    <Card.Title>EGATTUR</Card.Title>
+                    <Card.Body><span><FaInstagram /></span><span><FaFacebook /></span><span><FaWhatsappSquare /></span></Card.Body>
+                    
+                </Card.Body>
+                </Card>
+                </div>
+                <div className="col-12 col-md-2 mycards">
+                <Card >
+                <Card.Img variant="top" src={d2} />
+                <Card.Body>
+                    <Card.Title>NAVALUR</Card.Title>
+                    <Card.Body><span><FaInstagram /></span><span><FaFacebook /></span><span><FaWhatsappSquare /></span></Card.Body>
 
-    <div className='col-3'>
-       <Card >
-      <Card.Img variant="top" src={card2} />
-      <Card.Body>
-        <Card.Title>Pastries</Card.Title>
-        
-      </Card.Body>
-    </Card>
-    </div>
+                    
+                </Card.Body>
+                </Card>
+                </div>
+                <div className="col-12 col-md-2 mycards">
+                <Card >
+                <Card.Img variant="top" src={d4} />
+                <Card.Body>
+                    <Card.Title>MADIPAKKAM</Card.Title>
+                    <Card.Body><span><FaInstagram /></span><span><FaFacebook /></span><span><FaWhatsappSquare /></span></Card.Body>
 
-    <div className='col-3'>
-       <Card >
-      <Card.Img variant="top" src={card3} />
-      <Card.Body>
-        <Card.Title>Party Menu</Card.Title>
-       
-      </Card.Body>
-    </Card>
-    </div>
-
-    <div className='col-3'>
-       <Card >
-      <Card.Img variant="top" src={card4} />
-      <Card.Body>
-        <Card.Title>Customized Cakes</Card.Title>
-       
-      </Card.Body>
-    </Card>
-    </div>
-    </div>
-
-    </div>
-  );
+                    
+                </Card.Body>
+                </Card>
+                </div>
+                </div>
+            </div>
+    )
 }
 
-export default Mycard;
+export default Delivery;
