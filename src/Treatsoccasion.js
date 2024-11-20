@@ -9,16 +9,17 @@ import ca5 from './assets/ca5.jpg';
 function Treatsoccasion(){
     return(
         <div className='container-fluid text-center text-uppercase my-5'>
-            <div className="row">
-                <div className='my-5'>
+            <div className='my-5'>
                 <div>
                 <h1>TREATS FOR ANY OCCASION</h1>
                 <p>Cake Cafe & Fine Pastries prides itself on using the finest ingredients in all of our items.</p>
                 </div>
                 </div>
+            <div className="row">
+                
 
 
-                <div className="col-2 offset-1">
+                <div className="col-12 col-md-2 offset-md-1">
                 <Card >
                 <Card.Img variant="top" src={ca1} />
                 <Card.Body>
@@ -27,7 +28,7 @@ function Treatsoccasion(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2 ">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cak2} />
                 <Card.Body>
@@ -36,7 +37,7 @@ function Treatsoccasion(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2 ">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cak3} />
                 <Card.Body>
@@ -45,7 +46,7 @@ function Treatsoccasion(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2 ">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cak4} />
                 <Card.Body>
@@ -54,7 +55,7 @@ function Treatsoccasion(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2 ">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={ca5} />
                 <Card.Body>
