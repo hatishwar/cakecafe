@@ -25,7 +25,7 @@ function Bestselling(){
                 </div>
 
 
-                <div className="col-2 offset-1">
+                <div className="col-12 col-md-2 offset-md-1">
                 <Card >
                 <Card.Img variant="top" src={cake7} />
                 <Card.Body>
@@ -35,7 +35,7 @@ function Bestselling(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cake9} />
                 <Card.Body>
@@ -45,7 +45,7 @@ function Bestselling(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cake11} />
                 <Card.Body>
@@ -55,7 +55,7 @@ function Bestselling(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cake12} />
                 <Card.Body>
@@ -65,7 +65,7 @@ function Bestselling(){
                 </Card.Body>
                 </Card>
                 </div>
-                <div className="col-2">
+                <div className="col-12 col-md-2">
                 <Card >
                 <Card.Img variant="top" src={cake13} />
                 <Card.Body>
